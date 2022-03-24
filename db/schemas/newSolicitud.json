@@ -1,0 +1,27 @@
+{
+	"allowed": [
+		"servicioId",
+		"groupId",
+		"userId",
+		"observation",
+		"usrEmail",
+		"usrEmailAlternative",
+		"usrUserName",
+		"serviciosSolicitadosClasificacionId",
+		"servicioAdquiridoId",
+		"clasificadosRequiredDocuments",
+		"serviceName"
+	],
+	"required": {
+		"servicioId": "el servicioId es requerido",
+		"servicioAdquiridoId": "el id del servicio adquirido es requerido",
+		"groupId": "el groupId requerido",
+		"userId": "el userId es requerido",
+		"observation": "la observacion es requerida",
+		"usrEmail": "el email es requerida",
+		"usrUserName": "el nombre del usuario es requerido",
+		"serviciosSolicitadosClasificacionId": "la clasificación del servicio solicitado es requerido",
+		"clasificadosRequiredDocuments": "clasificadosRequiredDocuments es requerido",
+		"serviceName": "serviceName es requerido"
+	}
+}

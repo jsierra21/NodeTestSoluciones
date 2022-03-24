@@ -1,0 +1,30 @@
+{
+	"allowed": [
+		"usrNames",
+		"usrLastNames",
+		"usrCedula",
+		"usrNroCelular",
+		"usrEmail",
+		"usrEmailAlternative",
+		"usrPassword",
+		"usrTerminosCondiciones",
+		"identificationTypeId",
+		"userTypesId",
+		"hasGeolocation",
+		"usrLat",
+		"usrLng"
+	],
+	"required": {
+		"usrCedula": "Cedula",
+		"usrNames": "Nombres",
+		"usrLastNames": "Apellido",
+		"usrEmail": "Email",
+		"usrPassword": "Contraseña",
+		"usrTerminosCondiciones": "Terminos y condiciones",
+		"identificationTypeId": "Tipo de identificación",
+		"hasGeolocation": "geolocalización"
+	},
+	"params": {
+		"id": "/^([0-9])*$/"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"allowed": [
+		"fnacimiento",
+		"estadoCivil",
+		"direccion",
+		"referido",
+		"ciudad",
+		"tyc",
+		"userId",
+		"groupId",
+		"beneficiario",
+		"beneficiarioJuridico",
+		"payNomina",
+		"pin",
+		"sign",
+		"groupName",
+		"ciudadText",
+		"estadoCivilText",
+		"parentescoArray",
+		"userData"
+	],
+	"required": {
+		"fnacimiento": "la fecha de nacimiento es requerida",
+		"estadoCivil": "el estado civil es requerida",
+		"direccion": "la direccion es requerida",
+		"ciudad": "la ciudad es requerida",
+		"tyc": "tyc es requerido",
+		"userId": "el id del usuario es requerido",
+		"groupId": "El id de grupo es requerido",
+		"payNomina": "pagar por nomina es requerido",
+		"groupName": "nombre del grupo de servicio",
+		"ciudadText": "Texto de la ciudad requerido",
+		"estadoCivilText": "Texto del estado civil requerido",
+		"userData": "userData es requerido"
+	}
+}
